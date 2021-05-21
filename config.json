@@ -1,0 +1,19 @@
+{"configs":[
+    {
+        "dbcn": "PGSQL",
+        "dbname": "wealthsmith",
+        "host": "Localhost",
+        "port": "5433",
+        "user": "wealthsmith",
+        "pass": "wealthsmith"
+    },
+
+    {
+        "dbcn": "MySQL",
+        "dbname": "test",
+        "host": "Localhost",
+        "port": "3306",
+        "user": "test",
+        "pass": "test"
+    }
+]}

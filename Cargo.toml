@@ -1,0 +1,17 @@
+[package]
+name = "spider"
+version = "0.1.0"
+authors = ["mogendi <mogendi.mongare@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls", "mysql", "postgres"] }
+tokio = { version = "1.4.0", features = ["full"] }
+futures-core = { version = "0.3", default-features = false }
+futures-channel = "0.3"
+futures-util = { version = "0.3", default-features = false }
+sqlx-core = "0.5"
